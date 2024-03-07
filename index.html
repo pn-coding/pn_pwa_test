@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>testing</title>
+    <link rel="icon" href="logo.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module">
+      import "https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate";
+      const el = document.createElement("pwa-update");
+      document.body.appendChild(el);
+    </script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="logo"><a href="#">LOGO</a></div>
+
+        <ul class="gnb">
+          <li><a href="#">MENU</a></li>
+          <li><a href="#">MENU</a></li>
+          <li><a href="#">MENU</a></li>
+          <li><a href="#">MENU</a></li>
+        </ul>
+      </header>
+
+      <section class="section_1"></section>
+
+      <section class="section_2">
+        <h3>This is title</h3>
+
+        <div class="con_wrap">
+          <div class="con"></div>
+          <div class="con"></div>
+          <div class="con"></div>
+        </div>
+      </section>
+
+      <section class="section_3">
+        <h3>This is title</h3>
+      </section>
+    </div>
+  </body>
+</html>

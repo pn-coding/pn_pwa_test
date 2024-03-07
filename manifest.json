@@ -1,0 +1,13 @@
+{
+  "background_color": "#ffffff",
+  "description": "pn pwa test app",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "pn_pwa_test_app",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "e24c-14-49-104-116.ngrok-free",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "pn_pwa_test_app"
+}
