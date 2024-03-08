@@ -7,7 +7,7 @@
   "orientation": "any",
   "scope": "/",
   "short_name": "pn_pwa_test_app",
-  "start_url": "/",
+  "start_url": "/pn_pwa_test",
   "theme_color": "#ffffff",
   "id": "pn_pwa_test_app",
   "lang": "ko",
